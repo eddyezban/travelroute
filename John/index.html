@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Travel Route - John</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="action.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <video id="fondo" src="backround.mp4" autoplay loop muted>
+      </video>
+      <div id="nav" class="row transition ">
+        <div class="col-sm-1">
+          <img src="logo.png" width="50px" alt="Logo">
+        </div>
+        <div class="col-sm-5">
+          <form id="sign-in">
+            <label for="¿A donde viajas?"></label>
+            <input id="barra" type="text" name="De donde vienes?" placeholder="&nbsp;&nbsp;A donde quieres ir?" value="">
+          </form>
+        </div>
+        <div class="col-sm-2">
+          <div id="header">
+          <ul class="nav">
+            <li><a href="">Explora</a>
+              <ul>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#personas">Viajeros</a></li>
+                </li>
+              </ul>
+            </ul>
+          </div>
+          </div>
+          <div class="col-sm-2">
+            <div id="header">
+              <ul class="nav">
+                <li><a href="">Nosotros</a>
+                  <ul>
+                    <li><a href="">Quienes somos?</a></li>
+                    <li><a href="">Que hacemos?</a></li>
+                    <li><a href="">Por qué lo hacemos?</a></li>
+                    </li>
+                  </ul>
+              </ul>
+            </div>
+            </div>
+            <div class="col-sm-2">
+              <div id="header">
+                <ul class="nav">
+                  <li><a href="">Tu cuenta</a>
+                    <ul>
+                      <li><a href="">Crea una cuenta</a></li>
+                      <li><a href="">Iniciar sesión</a></li>
+                    </ul>
+                    </li>
+                </ul>
+              </div>
+            </div>
+
+        </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <!--MAIN CONTENT CIUDAD DE MEXICO-->
+
+    <div id="ciudad-background" class="row">
+
+        <div class="col-sm-12">
+          <p id="title-ciudad">John</p>
+        </div>
+
+        <div class="col-sm-12">
+          <div id="texto-ciudad" class="col-sm-6">
+            <p id="name">La ruta de John</p>
+            <p>A John le gusta la comida mexicana, la naturaleza, y las ciudades chicas. Su forma favorita de moverse es en bici y es apasionado a la fotografía.</p>
+            <p>John ha explorado una diversidad amplia de rutas usando Travel Route, como Río de Janeiro, San Francisco y actualmente la Ciudad de México.</p>
+            <p>En la Ciudad de México, John ha explorado una variedad de restaurantes y bares, tales como La Casa de Toño y el bar Departamento.</p>
+            <br>
+            <br>
+          </div>
+
+          <div id="foto-ciudad" class="col-sm-6">
+            <br>
+            <img src="john.jpg" width="400px" height="272px" alt="">
+            <br>
+            <br>
+          </div>
+      </div>
+
+      <div class="col-sm-12">
+          <br>
+          <p id="subtitle-ciudad">Lugares explorados:</p>
+        </div>
+
+      <div class="col-sm-12">
+          <div id="texto-ciudad" class="col-sm-4">
+            <img src="mexico.jpg" width="250px" alt="John">
+            <p id="name">La Ciudad de México</p>
+          </div>
+
+          <div class="col-sm-6">
+            <p id="name">John recomienda:</p>
+            <p><span class="glyphicon glyphicon-unchecked"></span> Ángel de la Independencia</p>
+            <p><span class="glyphicon glyphicon-unchecked"></span> <a href="../Aarón/bellasArtes.html">Bellas Artes</a></p>
+            <p><span class="glyphicon glyphicon-apple"></span> Café Don Porfirio</p>
+            <p><span class="glyphicon glyphicon-unchecked"></span> Bellas Artes</p>
+                <input type="submit" class="botton" value="Explorar ruta">
+                <input type="submit" class="botton" value="Descargar ruta">
+          </div>
+
+          <div class="col-sm-2">
+            <div class="col-sm-2">
+            <a href="#" class="btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-star-empty"></span> <br> 15 puntos
+            </a>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+      </div>
+
+    </div> <!--this is the closing bracket of #Ciudad-Background>
+
+
+
+              <!--MAIN CONTENT "VIAJEROS"-->
+
+<!--
+  <div id="perfil" class="row">
+          <div class="col-sm-4">
+            <img src="img/eddy.jpg" width="250px" alt="Eddy">
+            <br>
+            <div class="descripcion">
+              <h3>Eddy</h3>
+             <p>Me encanta explorar ciudades nuevas</p>
+              <a href="#" class="fa fa-facebook"></a>1,015 amigos
+            </div>
+          </div>
+          <div class="col-sm-8">
+            <div class="col-sm-10">
+              <h3>
+              18 de agosto 2017<br>
+              1 día<br>
+              Ruta del viaje:<br>
+              </h3>
+              <p> <span class="glyphicon glyphicon-unchecked"></span> Ángel de la Independencia</p>
+              <br>
+              <p> <span class="glyphicon glyphicon-unchecked"></span> Bellas Artes</p>
+              <br>
+              <p> <span class="glyphicon glyphicon-apple"></span> Café Don Porfirio</p>
+              <br>
+              <p> <span class="glyphicon glyphicon-unchecked"></span> Bellas Artes</p>
+              <br>
+            <input type="submit" class="botton" value="Explorar ruta">
+            <input type="submit" class="botton" value="Descargar ruta">
+            </div>
+            <div class="col-sm-2">
+              <a href="#" class="btn btn-info btn-lg">
+              <span class="glyphicon glyphicon-star-empty"></span> <br> 15 puntos
+              </a>
+            </div>
+          </div>
+      </div>
+
+  <div id="perfil" class="row">
+          <div class="col-sm-4">
+            <img src="img/pato.png" width="250px" alt="Pato">
+            <br>
+            <div class="descripcion">
+              <h3>Duckie</h3>
+             <p>Sueño con viajar al sur</p>
+              <a href="#" class="fa fa-facebook"></a>13 amigos
+            </div>
+          </div>
+          <div class="col-sm-8">
+            <div class="col-sm-10">
+              <h3>
+              18 de agosto 2017<br>
+              1 día<br>
+              Ruta del viaje:<br>
+              </h3>
+              <p> <span class="glyphicon glyphicon-unchecked"></span> Ángel de la Independencia</p>
+              <br>
+              <p> <span class="glyphicon glyphicon-unchecked"></span> Bellas Artes</p>
+              <br>
+              <p> <span class="glyphicon glyphicon-apple"></span> Café Don Porfirio</p>
+              <br>
+              <p> <span class="glyphicon glyphicon-unchecked"></span> Bellas Artes</p>
+              <br>
+            <input type="submit" class="botton" value="Explorar ruta">
+            <input type="submit" class="botton" value="Descargar ruta">
+            </div>
+            <div class="col-sm-2">
+              <a href="#" class="btn btn-info btn-lg">
+              <span class="glyphicon glyphicon-star-empty"></span> <br> 15 puntos
+              </a>
+            </div>
+          </div>
+        </div>
+
+      <div id="perfil" class="row">
+        <div class="col-sm-4">
+          <img src="img/kobe.jpg" width="250px" alt="Kobe">
+          <br>
+          <div class="descripcion">
+            <h3>Kobe</h3>
+           <p>Me gusta el basket</p>
+            <a href="#" class="fa fa-facebook"></a>12,205 amigos
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="col-sm-10">
+            <h3>
+            18 de agosto 2017<br>
+            1 día<br>
+            Ruta del viaje:<br>
+            </h3>
+            <p> <span class="glyphicon glyphicon-unchecked"></span> Ángel de la Independencia</p>
+            <br>
+            <p> <span class="glyphicon glyphicon-unchecked"></span> Bellas Artes</p>
+            <br>
+            <p> <span class="glyphicon glyphicon-apple"></span> Café Don Porfirio</p>
+            <br>
+            <p> <span class="glyphicon glyphicon-unchecked"></span> Bellas Artes</p>
+            <br>
+          <input type="submit" class="botton" value="Explorar ruta">
+          <input type="submit" class="botton" value="Descargar ruta">
+          </div>
+          <div class="col-sm-2">
+            <a href="#" class="btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-star-empty"></span> <br> 15 puntos
+            </a>
+          </div>
+        </div>
+    </div>
+
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+      <div id="description" class="row">
+
+        <div class="col-sm-2">
+
+        </div>
+
+
+
+
+
+        <div id="ciudades" class="col-sm-3">
+
+          <p id="name">San Francisco</p>
+          <br>
+          <img src="sanfrancisco.jpg" width="250px" height="170px" alt="">
+          <br>
+          <br>
+          <p>San Francisco, de forma oficial la Ciudad y Condado de San Francisco, es una ciudad que ocupa la cuarta posición de ciudad más poblada del estado de California y la 13. de Estados Unidos, con una población de aproximadamente 837 442 habitantes en 2013.</p>
+
+        </div>
+
+        <div id="ciudades" class="col-sm-3">
+
+          <p id="name">Dubai</p>
+          <br>
+          <img src="dubai.jpg" width="250px" height="170px" alt="">
+          <br>
+          <br>
+          <p>Dubái es uno de los siete emiratos que conforman los Emiratos Árabes Unidos, cuya capital es la ciudad homónima. Está situado en la costa del golfo Pérsico, en el desierto de Arabia, y limita al sur con el emirato de Abu Dabi.</p>
+
+        </div>
+
+        <div id="ciudades" class="col-sm-3">
+
+          <p id="name">Rio de Janeiro</p>
+          <br>
+          <img src="riodejaneiro.jpg" width="250px" height="170px" alt="">
+          <br>
+          <br>
+          <p>Río de Janeiro1, fundada como São Sebastião do Rio de Janeiro​ es una ciudad, municipio brasileño y capital del estado homónimo, ubicada en el sureste del país.</p>
+
+        </div>
+
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+
+
+        <div class="col-sm-8">
+
+          <p id="texto">Explora tu destino, llega de la mejor forma, comparte con la persona indicada</p>
+
+        </div>
+
+        <div class="col-sm-2">
+
+        </div>
+
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+
+      <div id="personas" class="row">
+
+        <div class="col-sm-12">
+
+          <p id="texto-destinos">Viajeros</p>
+
+        </div>
+
+        <div id="viajeros" class="col-sm-3">
+
+          <p id="name">Javier</p>
+          <br>
+          <img src="javier.jpg" width="250px" height="170px" alt="">
+          <br>
+          <br>
+          <p>Javier lleva más de 1 año viajando por el mundo guíandose en lo sugerido en Travel Route. Conoce su ruta!</p>
+
+        </div>
+
+        <div id="viajeros" class="col-sm-3">
+
+          <p id="name">John</p>
+          <br>
+          <img src="john.jpg" width="250px" height="170px" alt="">
+          <br>
+          <br>
+          <p>A John le gusta la comida mexicana, la naturaleza, y las ciudades chicas. Su forma favorita de moverse es en bici y es apasionado a la fotografía.</p>
+
+        </div>
+
+        <div id="viajeros" class="col-sm-3">
+
+          <p id="name">Margaret</p>
+          <br>
+          <img src="margaret.jpg" width="250px" height="170px" alt="">
+          <br>
+          <br>
+          <p>Margaret planea mínimo un viaje al año ya sea sola o con su familia. Es apasionada de las nuevas culturas, aprende su forma de viajar.</p>
+
+        </div>
+
+        <div id="viajeros" class="col-sm-3">
+
+          <p id="name">Ana</p>
+          <br>
+          <img src="ana.jpg" width="250px" height="170px" alt="">
+          <br>
+          <br>
+          <p>Ana es de las personas que creen que felicidad no es real si no se comparte, por eso siempre viaja con sus amigas. Le gusta la comida italiana y moverse en metro, conócela!</p>
+
+        </div>
+
+      </div>
+
+      <br>
+      <br>
+      <br>
+       -->
+
+      <div id="footer" class="row">
+
+        <div id="foot" class="col-sm-3">
+
+          <p>Todos los derechos reservados</p>
+
+        </div>
+
+        <div id="foot" class="col-sm-3">
+
+          <p>Sobre nosotros</p>
+
+        </div>
+
+        <div class="col-sm-3">
+
+          <p>Trabaja con nosotros</p>
+
+        </div>
+
+        <div class="col-sm-3">
+
+          <p>Política de privacidad</p>
+
+        </div>
+
+      </div>
+
+  </body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Travel Route - Ciudad de México</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXq7nXKHy9UTmJDS4tLQSNDTa_xybJYyQ&callback=initMap"
+    async defer></script>
+    <script type="text/javascript" src="action.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <video id="fondo" src="backround.mp4" autoplay loop muted>
+      </video>
+      <div id="nav" class="row transition ">
+        <div class="col-sm-1">
+          <img src="logo.png" width="50px" alt="Logo">
+        </div>
+        <div class="col-sm-5">
+          <form id="sign-in">
+            <label for="¿A donde viajas?"></label>
+            <input id="barra" type="text" name="De donde vienes?" placeholder="&nbsp;&nbsp;A donde quieres ir?" value="">
+          </form>
+        </div>
+        <div class="col-sm-2">
+          <div id="header">
+          <ul class="nav">
+            <li><a href="">Explora</a>
+              <ul>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#personas">Viajeros</a></li>
+                </li>
+              </ul>
+            </ul>
+          </div>
+          </div>
+          <div class="col-sm-2">
+            <div id="header">
+              <ul class="nav">
+                <li><a href="">Nosotros</a>
+                  <ul>
+                    <li><a href="">Quienes somos?</a></li>
+                    <li><a href="">Que hacemos?</a></li>
+                    <li><a href="">Por qué lo hacemos?</a></li>
+                    </li>
+                  </ul>
+              </ul>
+            </div>
+            </div>
+            <div class="col-sm-2">
+              <div id="header">
+                <ul class="nav">
+                  <li><a href="">Tu cuenta</a>
+                    <ul>
+                      <li><a href="">Crea una cuenta</a></li>
+                      <li><a href="">Iniciar sesión</a></li>
+                    </ul>
+                    </li>
+                </ul>
+              </div>
+            </div>
+
+        </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+    <div id="ciudad-background" class="row">
+
+        <div class="col-sm-12">
+          <p id="title-ciudad">Ciudad de México</p>
+        </div>
+
+        <div class="col-sm-12">
+          <div id="texto-ciudad" class="col-sm-6">
+            <p id="name">Capital moderna de México</p>
+            <p>La Ciudad de México, anteriormente conocida como el Distrito Federal,​ es una de las 32 entidades federativas de México oficialmente la capital del país. Se encuentra en el Valle de México, a una altitud media de 2,240 msnm.</p>
+            <p>En la Ciudad de México se encuentran enclavados cuatro de los 34 sitios patrimonio de la humanidad con los que cuenta el país: el Centro histórico, Xochimilco, el Campus Central de la Ciudad Universitaria de la Universidad Nacional Autónoma de México (UNAM) y la Casa y estudio de Luis Barragán. En 1968 fue la primera ciudad de Latinoamérica y del mundo de habla hispana en ser sede de unos Juegos Olímpicos.</p>
+            <p>La ciudad cuenta con la segunda mayor cantidad de museos (151) en el mundo, solo por debajo de Londres.</p>
+            <br>
+            <br>
+          </div>
+
+          <div id="foto-ciudad" class="col-sm-6">
+            <br>
+            <video id="IMGR" src="img/CDMX.mp4" controls autoplay loop width="100%" ></video>
+            <br>
+            <br>
+          </div>
+      </div>
+
+        <div class="col-sm-12">
+          <div id="map"></div>
+        </div>
+
+    </div>
+
+      <div class="col-sm-12">
+          <br>
+          <p id="subtitle-ciudad">Explora rutas:</p>
+      </div>
+
+          <a href="../John/index.html">
+          <div class="col-sm-12">
+          <div id="texto-ciudad" class="col-sm-4">
+            <img src="john.jpg" width="250px" alt="John">
+            <p id="name">John</p>
+            <p id="bullet">24 años. Seattle, USA</p>
+            <a href="#" class="fa fa-facebook"></a><p id="bullet">113 amigos</p>
+          </div>
+          </a>
+
+          <div class="col-sm-6">
+            <p id="name">3 atracciones en 1 día:</p>
+            <p id="bullet"><span class="glyphicon glyphicon-unchecked"></span> Ángel de la Independencia</p>
+            <a href="../Aarón/bellasArtes.html"><p id="bullet"><span class="glyphicon glyphicon-unchecked"></span> Bellas Artes</p></a>
+            <p id="bullet"><span class="glyphicon glyphicon-apple"></span> Café Don Porfirio</p>
+            <p id="bullet"><span class="glyphicon glyphicon-unchecked"></span> Bellas Artes</p>
+                <input type="submit" class="botton" value="Explorar ruta">
+                <input type="submit" class="botton" value="Descargar ruta">
+          </div>
+
+          <div class="col-sm-2">
+            <div class="col-sm-2">
+            <a href="#" class="btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-star-empty"></span> <br> 15 puntos
+            </a>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+      </div>
+
+    </div>
+      <div id="footer" class="row">
+
+        <div id="foot" class="col-sm-3">
+
+          <p>Todos los derechos reservados</p>
+
+        </div>
+
+        <div id="foot" class="col-sm-3">
+
+          <p>Sobre nosotros</p>
+
+        </div>
+
+        <div class="col-sm-3">
+
+          <p>Trabaja con nosotros</p>
+
+        </div>
+
+        <div class="col-sm-3">
+
+          <p>Política de privacidad</p>
+
+        </div>
+  </body>
+</html>
